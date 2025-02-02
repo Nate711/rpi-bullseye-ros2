@@ -33,7 +33,7 @@ if [ ${BUILD_FULL_PKG} = true ]; then
     # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/urg.repos
     # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/velodyne.repos
     # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/webcam.repos
-    wget -O https://raw.githubusercontent.com/Nate711/rpi-bullseye-ros2/refs/heads/jazzy/repos/pupper.repos
+    wget -O hhttps://raw.githubusercontent.com/Nate711/rpi-bullseye-ros2/jazzy/repos/pupper.repos
 
     for f in *.repos; do
         echo "---- importing $f ----"
