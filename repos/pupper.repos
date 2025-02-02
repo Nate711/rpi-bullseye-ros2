@@ -78,11 +78,11 @@ repositories:
   ros2_teleop_twist_joy:
     type: git
     url: https://github.com/ros2/teleop_twist_joy.git
-    version: main
+    version: rolling
   rosx_introspection:
     type: git
     url: https://github.com/facontidavide/rosx_introspection.git
-    version: main
+    version: master
   ros_foxglove_bridge:
     type: git
     url: https://github.com/foxglove/ros-foxglove-bridge.git

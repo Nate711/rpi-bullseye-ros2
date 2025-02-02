@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash -e
+
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 DISTRO=${1:-humble}
 BUILD_FULL_PKG=${2:-false}
@@ -33,7 +34,7 @@ if [ ${BUILD_FULL_PKG} = true ]; then
     # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/urg.repos
     # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/velodyne.repos
     # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/webcam.repos
-    wget -O hhttps://raw.githubusercontent.com/Nate711/rpi-bullseye-ros2/jazzy/repos/pupper.repos
+    wget https://raw.githubusercontent.com/Nate711/rpi-bullseye-ros2/jazzy/repos/pupper.repos
 
     for f in *.repos; do
         echo "---- importing $f ----"

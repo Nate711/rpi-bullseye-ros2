@@ -80,7 +80,13 @@ RUN apt-get update && \
 	python3-typeguard \
 	# ros2_control
 	libfmt-dev \
+	libcap-dev \
 	librange-v3-dev && \
+	rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update && \
+	apt-get install \
+	libwebsocketpp-dev && \
 	rm -rf /var/lib/apt/lists/*
 
 # RUN pip install --upgrade pip
