@@ -2,6 +2,28 @@
 
 Build ROS2 for Raspbian
 
+## Quick use
+
+```bash
+sudo bash create_ros2.bash jazzy bookworm full
+```
+
+## TODO
+Get
+  rosx_introspection:
+    type: git
+    url: https://github.com/facontidavide/rosx_introspection.git
+    version: master
+  ros_foxglove_bridge:
+    type: git
+    url: https://github.com/foxglove/ros-foxglove-bridge.git
+    version: main
+  camera_ros:
+    type: git
+    url: https://github.com/christianrauch/camera_ros.git
+    version: no_switch_error
+
+to work
 
 ## Books📚
 

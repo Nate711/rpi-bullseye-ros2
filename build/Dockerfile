@@ -85,7 +85,7 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && \
-	apt-get install \
+	apt-get install -y \
 	libwebsocketpp-dev && \
 	rm -rf /var/lib/apt/lists/*
 
