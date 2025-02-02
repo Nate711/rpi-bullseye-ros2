@@ -91,7 +91,3 @@ repositories:
     type: git
     url: https://github.com/christianrauch/camera_ros.git
     version: no_switch_error
-  message_filters:
-    type: git
-    url: https://github.com/ros2/message_filters.git
-    version: jazzy

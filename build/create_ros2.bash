@@ -35,7 +35,7 @@ if [ $? -ne 0 ]; then
 fi
 
 START_TIME=`date +%s`
-docker run -it --rm --net=host \
+docker run -it --net=host \
     -v $SCRIPT_DIR/ros2_ws:/ros2_ws \
     ros2-${DISTRO}-aarch64 \
     /bin/bash -c "bash /ros2_ws/build.bash ${DISTRO} ${BUILD_FULL_PKG}"
