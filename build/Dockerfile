@@ -1,7 +1,7 @@
 ARG DEBIAN_DISTRO=bullseye
 FROM arm64v8/debian:${DEBIAN_DISTRO}
 
-ENV TZ=Asia/Tokyo
+ENV TZ=America/Los_Angeles
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ENV DEBIAN_FRONTEND=noninteractive
 
