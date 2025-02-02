@@ -26,12 +26,13 @@ wget https://raw.githubusercontent.com/ros2/ros2/${DISTRO}/ros2.repos
 
 if [ ${BUILD_FULL_PKG} = true ]; then
     echo "Building full package"
-    wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/ds.repos
-    wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/realsense.repos
-    wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/rostackchan.repos
-    wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/urg.repos
-    wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/velodyne.repos
-    wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/webcam.repos
+
+    # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/ds.repos
+    # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/realsense.repos
+    # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/rostackchan.repos
+    # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/urg.repos
+    # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/velodyne.repos
+    # wget https://raw.githubusercontent.com/Ar-Ray-code/rpi-bullseye-ros2/main/repos/webcam.repos
 
     for f in *.repos; do
         echo "---- importing $f ----"
