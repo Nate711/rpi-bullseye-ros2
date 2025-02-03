@@ -21,7 +21,7 @@ repositories:
     version: jazzy
   ros2_control:
     type: git
-    url: https://github.com/ros-controls/ros2_control.git
+    url: https://github.com/Nate711/ros2_control.git
     version: master
   control_msgs:
     type: git
