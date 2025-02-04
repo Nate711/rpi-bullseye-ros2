@@ -7,10 +7,6 @@ repositories:
     type: git
     url: https://github.com/ros-drivers/joystick_drivers.git
     version: ros2
-  realsense-ros:
-    type: git
-    url: https://github.com/IntelRealSense/realsense-ros.git
-    version: ros2-development
   vision_opencv:
     type: git
     url: https://github.com/ros-perception/vision_opencv.git

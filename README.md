@@ -5,7 +5,9 @@ Build ROS2 for Raspbian
 ## Quick use
 
 ```bash
+cd build
 sudo bash create_ros2.bash jazzy bookworm full
+sudo bash create_deb.sh
 ```
 
 ## TODO
